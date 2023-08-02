@@ -25,6 +25,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	//뷰 애플리케이션 재시작 없이 수정사항 확인하기
+	implementation 'org.springframework.boot:spring-boot-devtools'
+	//쿼리 파라미터 로그 확인하기
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
