@@ -1,0 +1,19 @@
+spring:
+#  #테스트에 application.yml을 만들어두면 스프링은 기본 DB 세팅을 메모리모드로 설정한다
+#  datasource:
+#    url: jdbc:h2:mem:test  # 테스트
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        #        show_sql: true // System.out으로 출력(비추)
+#        format_sql: true
+
+logging.level:
+  org.hibernate.SQL: debug
+  org.hibernate.type: trace
