@@ -39,6 +39,8 @@ dependencies {
 	}
 	// 빈 검증
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	// JPA 지연로딩 시 api JSON 반환하지 않게 하기 위한 기능 사용
+	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta'
 }
 
 tasks.named('test') {

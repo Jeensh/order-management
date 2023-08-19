@@ -1,8 +1,8 @@
 spring:
   output.ansi.enabled: always
   datasource:
-    url: jdbc:h2:tcp://localhost/~/jpashop  # 데스크탑
-#    url: jdbc:h2:tcp://localhost/~/workspace/h2/jpashop  # 맥북
+#    url: jdbc:h2:tcp://localhost/~/jpashop  # 데스크탑
+    url: jdbc:h2:tcp://localhost/~/workspace/h2/jpashop  # 맥북
     username: sa
     password:
     driver-class-name: org.h2.Driver
